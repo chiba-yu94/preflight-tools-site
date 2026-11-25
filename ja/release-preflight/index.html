@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mac用シークレット検査・Xcodeアーカイブの配布前チェック | Release Preflight</title>
+  <meta name="description" content="Xcodeアーカイブ、macOSアプリ、ZIPをMac上で検査。APIキーや秘密鍵に似た記述、権限設定を確認し、マスク済みの結果を保存できます。">
+  <link rel="canonical" href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">
+  <link rel="alternate" hreflang="en" href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <link rel="alternate" hreflang="ja" href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">
+  <link rel="alternate" hreflang="x-default" href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mac用シークレット検査・Xcodeアーカイブの配布前チェック | Release Preflight">
+  <meta property="og:description" content="Xcodeアーカイブ、macOSアプリ、ZIPをMac上で検査。APIキーや秘密鍵に似た記述、権限設定を確認し、マスク済みの結果を保存できます。">
+  <meta property="og:url" content="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">
+  <link rel="stylesheet" href="https://chiba-yu94.github.io/preflight-tools-site/style.css">
+</head>
+<body>
+  <nav>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/">Preflight Tools</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/privacy/">プライバシー</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/support/">サポート</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/" hreflang="en">English</a>
+  </nav>
+  <main>
+    <h1>Release Preflight｜Macアプリの配布前チェック</h1>
+    <p>macOSアプリやZIPを配布する前に、実際に渡すファイルを選び、APIキーに似た記述やデバッグ設定、機密ファイルを確認できます。</p>
+    <p><strong><a href="https://apps.apple.com/jp/app/release-preflight/id6820354098">Mac App Storeで見る</a></strong></p>
+    <p>macOS 14以降 · 日本語・英語 · 買い切り</p>
+    <section>
+      <h2>確認できる項目</h2>
+      <ul>
+        <li>APIキー、トークン、秘密鍵に似た記述。検出した秘密値はマスク表示。</li>
+        <li>プロパティリスト、アプリの権限設定、開発用の接続先、配布時に不要なファイル。</li>
+        <li>対応する依存関係ファイル。必要に応じてOSVの既知の脆弱性情報と照合。</li>
+      </ul>
+      <p>ファイルの検査はMac内で行います。OSV照会を有効にした場合は、対応するパッケージ情報を送信します。</p>
+    </section>
+    <section>
+      <h2>Xcodeアーカイブを配布する前に</h2>
+      <p>配布するアーカイブや書き出したアプリを選び、同梱の設定に開発用の接続先や機密情報が残っていないか確認します。結果はHTMLまたはJSONで保存できます。</p>
+    </section>
+    <section>
+      <h2>ほかのPreflightアプリ</h2>
+      <ul>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/">CSV Preflight</a></li>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/">File Transfer Preflight</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>© 2026 Yuichi Chiba · Preflight Tools</footer>
+</body>
+</html>

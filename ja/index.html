@@ -1,1 +1,53 @@
-<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSV Preflight · Preflight Tools</title><link rel="stylesheet" href="https://chiba-yu94.github.io/preflight-tools-site/style.css"><nav><a href="https://chiba-yu94.github.io/preflight-tools-site/ja//">製品</a><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/privacy/">プライバシー</a><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/support/">サポート</a><a href="https://chiba-yu94.github.io/preflight-tools-site//">English</a></nav><main><h1>CSV Preflight</h1><p>取り込みで失敗する前にCSVを確認。</p><section><h2>Mac内でCSVを検査</h2><p>文字コード、列数、重複、見えない文字を確認し、検査レポートをCSVで保存できます。英語・日本語対応。macOS 14以降。</p><p>ファイルはMacの外へ送信されません。アカウント、クラウド、サブスクリプション、広告はありません。</p><p>Mac App Storeで買い切り販売中です。米国価格は$14.99です。<a href="https://apps.apple.com/jp/app/csv-preflight/id6820027859">App Storeで見る</a>。</p></section></main><footer>© 2026 Yuichi Chiba · Preflight Tools</footer></html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mac用CSV検証ツール・文字コードと列数の確認 | CSV Preflight</title>
+  <meta name="description" content="CSV取り込み前に列数のずれ、文字コード、重複、不可視文字をMac内で検査。問題のある行と列を確認し、結果をCSVで保存できます。">
+  <link rel="canonical" href="https://chiba-yu94.github.io/preflight-tools-site/ja/">
+  <link rel="alternate" hreflang="en" href="https://chiba-yu94.github.io/preflight-tools-site/">
+  <link rel="alternate" hreflang="ja" href="https://chiba-yu94.github.io/preflight-tools-site/ja/">
+  <link rel="alternate" hreflang="x-default" href="https://chiba-yu94.github.io/preflight-tools-site/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mac用CSV検証ツール・文字コードと列数の確認 | CSV Preflight">
+  <meta property="og:description" content="CSV取り込み前に列数のずれ、文字コード、重複、不可視文字をMac内で検査。問題のある行と列を確認し、結果をCSVで保存できます。">
+  <meta property="og:url" content="https://chiba-yu94.github.io/preflight-tools-site/ja/">
+  <link rel="stylesheet" href="https://chiba-yu94.github.io/preflight-tools-site/style.css">
+</head>
+<body>
+  <nav>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/">Preflight Tools</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/privacy/">プライバシー</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/support/">サポート</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/" hreflang="en">English</a>
+  </nav>
+  <main>
+    <h1>CSV Preflight｜MacでCSVを検証</h1>
+    <p>表計算ソフトやデータベースへCSVを取り込む前に、問題のある行や列を確認できます。</p>
+    <p><strong><a href="https://apps.apple.com/jp/app/csv-preflight/id6820027859">Mac App Storeで見る</a></strong></p>
+    <p>macOS 14以降 · 日本語・英語 · 買い切り</p>
+    <section>
+      <h2>確認できる項目</h2>
+      <ul>
+        <li>文字コード、改行コード、区切り文字、引用符の構文、列数の不一致。</li>
+        <li>重複行、空欄や重複のあるヘッダー、不可視文字。</li>
+        <li>指定した列のキー重複、必須値の空欄、文字数とUTF-8バイト数。</li>
+      </ul>
+      <p>UTF-8とBOM付きUTF-16に対応し、最大256 MBのファイルを検査できます。処理はMac内で完結し、元のCSVはそのままです。</p>
+    </section>
+    <section>
+      <h2>CSVの取り込みでエラーが出たら</h2>
+      <p>まず、検査結果で指摘された行と列を確認します。値に含まれるカンマが引用符で囲まれていないと、列が一つ多く読み込まれることがあります。見た目が同じキーを区別できないときは、不可視文字の指摘も確認できます。</p>
+    </section>
+    <section>
+      <h2>ほかのPreflightアプリ</h2>
+      <ul>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">Release Preflight</a></li>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/">File Transfer Preflight</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>© 2026 Yuichi Chiba · Preflight Tools</footer>
+</body>
+</html>

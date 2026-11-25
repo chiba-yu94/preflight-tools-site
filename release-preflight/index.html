@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mac Secret Scanner for Xcode Archives and ZIPs | Release Preflight</title>
+  <meta name="description" content="Scan Xcode archives, Mac apps, ZIP files and folders for possible secret leaks and risky release settings. Review masked findings and export a report.">
+  <link rel="canonical" href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <link rel="alternate" hreflang="en" href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <link rel="alternate" hreflang="ja" href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">
+  <link rel="alternate" hreflang="x-default" href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mac Secret Scanner for Xcode Archives and ZIPs | Release Preflight">
+  <meta property="og:description" content="Scan Xcode archives, Mac apps, ZIP files and folders for possible secret leaks and risky release settings. Review masked findings and export a report.">
+  <meta property="og:url" content="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/">
+  <link rel="stylesheet" href="https://chiba-yu94.github.io/preflight-tools-site/style.css">
+</head>
+<body>
+  <nav>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/">Preflight Tools</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/privacy/">Privacy</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/release-preflight/support/">Support</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/" hreflang="ja">日本語</a>
+  </nav>
+  <main>
+    <h1>Release Preflight: secret and release checks for Mac</h1>
+    <p>Before you ship a macOS app or share a release ZIP, check the actual artifact for exposed credentials, debug settings and sensitive files.</p>
+    <p><strong><a href="https://apps.apple.com/us/app/release-preflight/id6820354098">View on the Mac App Store</a></strong></p>
+    <p>macOS 14 or later · English and Japanese · One-time purchase</p>
+    <section>
+      <h2>What Release Preflight checks</h2>
+      <ul>
+        <li>Patterns resembling API keys, access tokens and private keys. Findings mask secret values.</li>
+        <li>Property lists, app entitlements, development endpoints and unneeded release files.</li>
+        <li>Dependencies from supported manifests and lockfiles, with optional OSV lookups for known advisories.</li>
+      </ul>
+      <p>File inspection runs on your Mac. Optional OSV lookup sends supported package details after you enable it. Checks cover supported rules and file types.</p>
+    </section>
+    <section>
+      <h2>What to inspect in an Xcode archive</h2>
+      <p>Select the archive or exported app you intend to distribute. Review credentials and development endpoints in bundled configuration files, then save the results as HTML or JSON for review.</p>
+    </section>
+    <section>
+      <h2>More Preflight apps</h2>
+      <ul>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/">CSV Preflight</a></li>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/file-transfer-preflight/">File Transfer Preflight</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>© 2026 Yuichi Chiba · Preflight Tools</footer>
+</body>
+</html>

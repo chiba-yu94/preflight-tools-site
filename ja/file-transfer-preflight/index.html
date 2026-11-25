@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Macでファイル名の禁止文字とパス長を確認 | File Transfer Preflight</title>
+  <meta name="description" content="MacからWindows、OneDrive、SharePointへ渡すフォルダやZIPを検査。使えない文字、予約名、パス長、名前の衝突を確認できます。">
+  <link rel="canonical" href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/">
+  <link rel="alternate" hreflang="en" href="https://chiba-yu94.github.io/preflight-tools-site/file-transfer-preflight/">
+  <link rel="alternate" hreflang="ja" href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/">
+  <link rel="alternate" hreflang="x-default" href="https://chiba-yu94.github.io/preflight-tools-site/file-transfer-preflight/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Macでファイル名の禁止文字とパス長を確認 | File Transfer Preflight">
+  <meta property="og:description" content="MacからWindows、OneDrive、SharePointへ渡すフォルダやZIPを検査。使えない文字、予約名、パス長、名前の衝突を確認できます。">
+  <meta property="og:url" content="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/">
+  <link rel="stylesheet" href="https://chiba-yu94.github.io/preflight-tools-site/style.css">
+</head>
+<body>
+  <nav>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/">Preflight Tools</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/privacy/">プライバシー</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/ja/file-transfer-preflight/support/">サポート</a>
+    <a href="https://chiba-yu94.github.io/preflight-tools-site/file-transfer-preflight/" hreflang="en">English</a>
+  </nav>
+  <main>
+    <h1>File Transfer Preflight｜ファイル名とパス長の検査</h1>
+    <p>MacからWindowsやクラウドストレージへフォルダやZIPを渡す前に、使えないファイル名や長いパスを確認できます。</p>
+    <p><strong><a href="https://apps.apple.com/jp/app/file-transfer-preflight/id6820943200">Mac App Storeで見る</a></strong></p>
+    <p>macOS 14以降 · 日本語・英語 · 買い切り</p>
+    <section>
+      <h2>確認できる項目</h2>
+      <ul>
+        <li>使えない文字、予約名、末尾の空白やピリオド。</li>
+        <li>長いファイル名とパス。受け渡し先のルートを指定すると、転送後のパス長を概算できます。</li>
+        <li>大文字・小文字やUnicode表現の違いによる名前の衝突、リンク、空フォルダ、Macのメタデータ。</li>
+      </ul>
+      <p>検査はMac内で行い、ZIPは展開せずに読み取ります。元のファイルはそのままです。</p>
+    </section>
+    <section>
+      <h2>Windows利用者にZIPを送る前に</h2>
+      <p>Windows / Officeプロファイルを選び、展開先が分かる場合はルートパスを指定します。相手側で問題になりやすい名前や長いパスを確認し、必要に応じて結果をCSVまたはHTMLで保存します。</p>
+    </section>
+    <section>
+      <h2>ほかのPreflightアプリ</h2>
+      <ul>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/">CSV Preflight</a></li>
+        <li><a href="https://chiba-yu94.github.io/preflight-tools-site/ja/release-preflight/">Release Preflight</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>© 2026 Yuichi Chiba · Preflight Tools</footer>
+</body>
+</html>
